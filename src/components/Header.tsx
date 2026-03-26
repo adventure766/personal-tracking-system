@@ -49,12 +49,12 @@ export const Header: React.FC<HeaderProps> = ({
           </div>
         </div>
         <button
-          onClick={onNewTaskClick}
-          className="bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-xl flex items-center gap-2 font-semibold shadow-lg shadow-indigo-200 transition-all hover:scale-[1.02] active:scale-[0.98]"
-        >
-          <Plus size={20} />
-          New Task
-        </button>
+  onClick={onNewTaskClick}
+  className="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-xl flex items-center gap-2 font-semibold shadow-lg shadow-green-200 transition-all hover:scale-[1.02] active:scale-[0.98]"
+>
+  <Plus size={20} />
+  New Task
+</button>
       </div>
     </header>
   );
